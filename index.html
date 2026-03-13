@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Владимир Провалинский — личная страница</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="tag">Лабораторная работа №2</p>
+      <h1>Владимир Провалинский</h1>
+      <p class="subtitle">Личная мини-страница (анкета)</p>
+      <button id="themeBtn" class="btn">Сменить палитру</button>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <section class="card info">
+      <h2>Кратко обо мне</h2>
+      <ul class="clean-list">
+        <li><strong>Имя:</strong> Владимир</li>
+        <li><strong>Статус:</strong> студент</li>
+        <li><strong>Часовой пояс:</strong> Asia/Krasnoyarsk</li>
+      </ul>
+    </section>
+
+    <section class="card hobby">
+      <h2>Чем занимаюсь в свободное время</h2>
+      <p>
+        Люблю делать небольшие личные проекты, пробовать новые цифровые инструменты
+        и приводить в порядок рабочие процессы.
+      </p>
+    </section>
+
+    <section class="card goals">
+      <h2>Текущие цели</h2>
+      <ul>
+        <li>Уверенно закрывать учебные задания в срок</li>
+        <li>Развивать практические навыки через мини-проекты</li>
+        <li>Собирать аккуратное портфолио работ</li>
+      </ul>
+    </section>
+
+    <section class="card stats">
+      <h2>Мини-интерактив</h2>
+      <p>Счётчик продуктивности:</p>
+      <div class="counter-wrap">
+        <span id="counter">0</span>
+        <button id="counterBtn" class="btn">+1</button>
+      </div>
+      <p id="quote" class="quote"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Владимир Провалинский</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
